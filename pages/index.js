@@ -13,6 +13,8 @@ hello
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
  <Navbar.Collapse id="responsive-navbar-nav">
 <Nav className="me-auto">
+<NavDropdown title="Торты" id="collasible-nav-dropdown">
+</NavDropdown>
 </Nav>
 </Navbar.Collapse>
 </Container>
