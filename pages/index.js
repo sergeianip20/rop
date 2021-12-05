@@ -8,7 +8,9 @@ return <div className ={s.body}>
 
 hello
 <Navbar collapseOnSelect expand="lg"  variant="dark">
-   </Navbar>
+   <Container>
+ </Container>
+</Navbar>
 
 </div>
 
