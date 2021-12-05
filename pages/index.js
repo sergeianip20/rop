@@ -14,6 +14,7 @@ hello
  <Navbar.Collapse id="responsive-navbar-nav">
 <Nav className="me-auto">
 <NavDropdown title="Торты" id="collasible-nav-dropdown">
+<NavDropdown.Item > <Link href= '/secon'><a className = {s.sa}>детские</a></Link> </NavDropdown.Item>
 </NavDropdown>
 </Nav>
 </Navbar.Collapse>
