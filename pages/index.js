@@ -7,6 +7,8 @@ export default function Home() {
 return <div className ={s.body}>
 
 hello
+<Navbar collapseOnSelect expand="lg"  variant="dark">
+   </Navbar>
 
 </div>
 
