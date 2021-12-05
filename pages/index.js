@@ -11,7 +11,9 @@ hello
    <Container>
 <Navbar.Brand href="#home">VPcake</Navbar.Brand>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
- </Container>
+ <Navbar.Collapse id="responsive-navbar-nav">
+</Navbar.Collapse>
+</Container>
 </Navbar>
 
 </div>
