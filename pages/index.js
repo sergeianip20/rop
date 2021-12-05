@@ -9,6 +9,7 @@ return <div className ={s.body}>
 hello
 <Navbar collapseOnSelect expand="lg"  variant="dark">
    <Container>
+<Navbar.Brand href="#home">VPcake</Navbar.Brand>
  </Container>
 </Navbar>
 
