@@ -10,6 +10,7 @@ hello
 <Navbar collapseOnSelect expand="lg"  variant="dark">
    <Container>
 <Navbar.Brand href="#home">VPcake</Navbar.Brand>
+<Navbar.Toggle aria-controls="responsive-navbar-nav" />
  </Container>
 </Navbar>
 
