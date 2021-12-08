@@ -26,7 +26,7 @@ return <div className ={s.body}>
 </Container>
 </Navbar>
 
-<NavBar/>
+
 </div>
 
 
