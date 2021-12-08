@@ -3,6 +3,7 @@ import {Navbar, Nav, NavDropdown, Container, Carousel } from 'react-bootstrap'
 import  'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link'
 import Image from 'next/image'
+import Chr from '../public/Chr.jpg'
 
 
 export default function Home() {
@@ -30,13 +31,13 @@ return <div>
 <div>
 <Carousel>
 <Carousel.Item>
-<Image src="/Chr.jpg" alt="Vercel Logo" width={500} height={500} layout="responsive" />
+<Image src="/Chr.jpg" alt="Vercel Logo" width={500} height={500}  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src="/Chr.jpg" alt="Vercel Logo" width={500} height={500} />
+<Image src={Chr} alt="Vercel Logo"  layout="intrinsic" />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
