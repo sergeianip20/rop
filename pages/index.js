@@ -4,7 +4,7 @@ import  'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link'
 import Image from 'next/image'
 import Chr from '../public/Chr.jpg'
-import Profile from '../public/Profile.jpg
+import Profile from '../public/Profile.jpg'
 
 
 export default function Home() {
