@@ -2,6 +2,7 @@ import s from  '../styles/global.module.css'
 import {Navbar, Nav, NavDropdown, Container, Carousel } from 'react-bootstrap'
 import  'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -28,17 +29,7 @@ return <div className ={s.body}>
 </div>
 <div>
 <Carousel>
-<Carousel.Item>
 
-<Image src="/Chr.svg"  alt="versel" width={500} height={500}  />
-<Carousel.Caption>
-
-<h3 className ='slider_h3'>Торты от валентины</h3>
-
-</Carousel.Caption>
-
-
-</Carousel.Item>
 </Carousel>
 </div>
 </div>
