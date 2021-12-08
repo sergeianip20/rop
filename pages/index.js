@@ -101,7 +101,7 @@ return <div>
 </div>
 
 
-<footer className={s.footer}>
+<footer >
 <CardGroup>
  
   <Card>
