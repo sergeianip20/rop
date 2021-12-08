@@ -111,7 +111,7 @@ return <div>
 </div>
 <div className={s.item}>
 <div className = {s.vk_items1}>
-<a href="https://vk.com/valpop87">
+<a href="https://instagram.com/vp.cake?utm_medium=copy_link">
 <Image src={Inst} layout="intrinsic"/>
 </a>
 </div>
