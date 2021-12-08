@@ -107,7 +107,7 @@ return <div>
 <Image src={Vk} layout="intrinsic"/>
 </a>
 </div>
-<div className = {s.vk_items}>
+<div className = {s.vk_items1}>
 <a href="https://vk.com/valpop87">
 <Image src={Inst} layout="intrinsic"/>
 </a>
