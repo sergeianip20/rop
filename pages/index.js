@@ -101,7 +101,7 @@ return <div>
 </div>
 
 
-<footer >
+<div >
 <CardGroup>
  
   <Card>
@@ -114,7 +114,7 @@ return <div>
 </Card.Footer>
     </Card>
 </CardGroup>
-</footer>
+</div>
 </div>
 
 
