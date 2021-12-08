@@ -35,6 +35,12 @@ return <div>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
+<Carousel.Item>
+<Image src="/Chr.jpg" alt="Vercel Logo" width={500} height={500} />
+<Carousel.Caption>
+<h3>Торты</h3>
+</Carousel.Caption>
+</Carousel.Item>
 </Carousel>
 </div>
 </div>
