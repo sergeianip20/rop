@@ -29,10 +29,11 @@ return <div className ={s.body}>
 </div>
 <div>
 <Carousel>
+<Carousel.Item>
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
-
+</Carousel.Item>
 </Carousel>
 </div>
 </div>
