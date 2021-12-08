@@ -29,6 +29,9 @@ return <div className ={s.body}>
 </div>
 <div>
 <Carousel>
+<Carousel.Caption>
+<h3>Торты</h3>
+</Carousel.Caption>
 
 </Carousel>
 </div>
