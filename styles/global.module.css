@@ -30,3 +30,7 @@ height: 75px;
 
 
 }
+.vk_grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
