@@ -115,6 +115,11 @@ return <div>
     </Card>
 </CardGroup>
 </div>
+<div className = {s.vk_items}>
+<a href="https://vk.com/valpop87">
+<Image src={Vk} layout="intrinsic"/>
+</a>
+</div>
 </div>
 
 
