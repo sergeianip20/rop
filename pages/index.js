@@ -101,20 +101,7 @@ return <div>
 </div>
 
 
-<div >
-<CardGroup>
- 
-  <Card>
- <Card.Footer>
-<div className = {s.vk_items}>
-<a href="https://vk.com/valpop87">
-<Image src={Vk} layout="intrinsic"/>
-</a>
-</div>
-</Card.Footer>
-    </Card>
-</CardGroup>
-</div>
+
 <div className = {s.vk_items}>
 <a href="https://vk.com/valpop87">
 <Image src={Vk} layout="intrinsic"/>
