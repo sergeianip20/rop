@@ -103,7 +103,13 @@ return <div>
 <CardGroup>
  
   <Card>
- 
+ <Card.Footer>
+<div className = {s.vk_items}>
+<a>
+<Image src={} layout="intrinsic"/>
+</a>
+</div>
+</Card.Footer>
     </Card>
 </CardGroup>
 </footer>
