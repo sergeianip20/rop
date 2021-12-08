@@ -3,9 +3,9 @@ import s from './navbar.module.css'
 import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap'
 import  'bootstrap/dist/css/bootstrap.min.css';
 
-const NavBar = () => {
+export default function NavBar  () {
 return   <div>
-     <div className={s.navbar_BG}>
+     <div>
 <Navbar collapseOnSelect expand="lg"  variant="dark">
    
   <Container>
@@ -38,4 +38,4 @@ return   <div>
 
 }
 
-export default NavBar
+
