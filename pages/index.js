@@ -100,17 +100,22 @@ return <div>
 </div>
 </div>
 
+<div className={s.vk_grid}>
 
-
+<div className={s.item}>
 <div className = {s.vk_items}>
 <a href="https://vk.com/valpop87">
 <Image src={Vk} layout="intrinsic"/>
 </a>
 </div>
+</div>
+<div className={s.item}>
 <div className = {s.vk_items1}>
 <a href="https://vk.com/valpop87">
 <Image src={Inst} layout="intrinsic"/>
 </a>
+</div>
+</div>
 </div>
 </div>
 
