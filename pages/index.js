@@ -30,11 +30,7 @@ return <div className ={s.body}>
 <Carousel>
 <Carousel.Item>
 
-<img className = "d-block w-100"
- src = "https://sun9-21.userapi.com/impg/ixAS_ZOSmAlxtmOUVPKevsc1vwSFtfAJpy6ihw/tg9OjjUfzlI.jpg?size=1280x854&quality=96&sign=ee67c5a5de61994abad691b68056b195&type=album"
-
- alt = "hello"
-/>
+<Image src="/Chr.svg"  alt="versel" width={500} height={500}  />
 <Carousel.Caption>
 
 <h3 className ='slider_h3'>Торты от валентины</h3>
