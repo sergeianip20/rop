@@ -107,7 +107,7 @@ return <div>
   <Card>
  <Card.Footer>
 <div className = {s.vk_items}>
-<a>
+<a href="https://vk.com/valpop87">
 <Image src={Vk} layout="intrinsic"/>
 </a>
 </div>
