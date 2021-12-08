@@ -5,6 +5,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Chr from '../public/Chr.jpg'
 import Profile from '../public/Profile.jpg'
+import Vk from '../public/vk.png'
+import inst from '../public/inst.jpg'
 
 
 export default function Home() {
@@ -106,7 +108,7 @@ return <div>
  <Card.Footer>
 <div className = {s.vk_items}>
 <a>
-<Image src={} layout="intrinsic"/>
+<Image src={Vk} layout="intrinsic"/>
 </a>
 </div>
 </Card.Footer>
