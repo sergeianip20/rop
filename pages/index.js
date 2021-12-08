@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Chr from '../public/Chr.jpg'
 import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
-import inst from '../public/inst.jpg'
+import Inst from '../public/inst.jpg'
 
 
 export default function Home() {
