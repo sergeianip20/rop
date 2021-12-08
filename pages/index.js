@@ -30,7 +30,7 @@ return <div className ={s.body}>
 <div>
 <Carousel>
 <Carousel.Item>
-<Image src="/Chr.svg" alt="Vercel Logo" width={100} height={100} />
+<Image src="/Chr.svg" alt="Vercel Logo" width={500} height={500} />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
