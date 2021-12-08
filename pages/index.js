@@ -9,7 +9,7 @@ export default function Home() {
 return <div>
 
 <div className ={s.body}>
-<Navbar collapseOnSelect expand="lg"  variant="dark">
+<Navbar collapseOnSelect expand="lg" >
    <Container>
 <Navbar.Brand href="#home">VPcake</Navbar.Brand>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
