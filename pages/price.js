@@ -26,6 +26,16 @@ const [phone, setphone] = useState('')
     const [chex, setchex] = useState(false)
     const [chexError, setChexError] = useState('я соглашаюсь на обработку моих персональных данных')
 
+useEffect( () => {
+    if(nameError || phoneError || messageError ) {
+    setFormValid(false)
+    }else {
+    setFormValid(true)
+    }
+    
+    
+    [nameError, phoneError, messageError,]})
+
     
 return <div>
 <div className ={s.body}>
