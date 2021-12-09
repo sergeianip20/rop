@@ -35,6 +35,45 @@ useEffect( () => {
     
     
     [nameError, phoneError, messageError,]})
+const nameHandler = (e) => {
+    setname(e.target.value)
+    if(e.target.value.length < 3 || e.target.value.length > 8 ) {
+    setnameError('введите нужное значение ')
+    if(!e.target.value){
+    setnameError('введите нужное значение ')
+    }
+    }else {
+    setnameError('')
+    }
+    }
+    const messageHandler = (e) => {
+    setmessage(e.target.value)
+    if(e.target.value.length < 6
+    || e.target.value.length > 15 ) {
+    setmessageError('введите нужное значение ')
+    if(!e.target.value){
+    setmessageError('введите нужное значение ')
+    }
+    }else {
+    setmessageError('')
+    }
+    }
+    
+   
+    
+    const blueHadler =(e)=> {
+    switch(e.target.name){
+    case 'name':
+    setNameDirty(true)
+    break
+    case 'phone':
+    setPhoneDirty(true)
+    break
+    case 'message':
+    setmessageDirty(true)
+    break  
+   
+    }  }
 
     
 return <div>
