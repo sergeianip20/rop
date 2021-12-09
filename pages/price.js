@@ -150,7 +150,31 @@ return <div>
 </div  >
 
 </div>
-     
+     <div>
+
+<form>
+{(phoneDirty && phoneError) && <div style={{color: "red"}}>{phoneError}</div>}
+<input onChange={ e => phoneHandeler(e)} value={phone} onBlur={e => {blueHadler(e)}} type="text" name="phone"
+placeholder="напишите номер"/>
+
+{(messageDirty && messageError) && <div style={{color: "red"}}>{messageError}</div>}
+
+<input onChange ={ e => messageHandler(e)} value ={message} onBlur ={ e => {blueHadler(e)}} type="text"
+name="message"
+placeholder=" напиши пожелания"
+/>
+{(nameDirty && nameError) && <div style={{color: "red"}}>{nameError}</div>}
+<input onChange ={e => nameHandler(e)} value ={name} onBlur={e => {blueHadler(e)}} type="text" name="name"
+placeholder="напишите имя"/>
+<p></p>
+<div> <span className ={s.chex}></span> я соглашаюсь на обработку моих персональных данных</div>
+
+<p></p>
+<button disabled={!formValid} > отправить </button>
+
+</form>
+
+</div>
 </div>
 
 
