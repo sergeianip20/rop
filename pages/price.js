@@ -7,6 +7,7 @@ import Chr from '../public/Chr.jpg'
 import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
+Inport Tort from '../public/tort.jpg'
 
 
 
@@ -46,6 +47,25 @@ return <div>
 </Carousel.Caption>
 </Carousel.Item>
 </Carousel>
+</div>
+<div className = 'users_grid'>
+  <div className = '.users_item' >
+<Card style={{ width: '18rem' }}>
+  <Image src={Tort} layout="intrinsic"/>
+  <Card.Body>
+    <Card.Title>Торты от Вали </Card.Title>
+    <Card.Text>
+      
+    </Card.Text>
+    
+    
+
+    
+   
+  </Card.Body>
+</Card>
+</div  >
+
 </div>
 </div>
 
