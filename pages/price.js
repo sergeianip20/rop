@@ -14,6 +14,17 @@ import {useState} from 'react'
 
 export default function price() {
 const [name, setname] = useState('')
+const [phone, setphone] = useState('')
+    const [message, setmessage] = useState('')
+    const [nameDirty, setNameDirty] = useState(false)
+    const [phoneDirty, setPhoneDirty] = useState(false)
+    const [messageDirty, setmessageDirty] = useState(false)
+    const [nameError, setnameError] = useState('введите имя')
+    const [phoneError, setphoneError] = useState('введите номер')
+    const [messageError, setmessageError] = useState('напишите пожелания')
+    const [formValid, setFormValid] = useState(false)
+    const [chex, setchex] = useState(false)
+    const [chexError, setChexError] = useState('я соглашаюсь на обработку моих персональных данных')
 
     
 return <div>
