@@ -49,7 +49,7 @@ return <div>
 </Carousel>
 </div>
 <div className = 'users_grid'>
-  <div className = '.users_item' >
+  <div className = 'users_item' >
 <Card style={{ width: '18rem' }}>
   <Image src={Tort} layout="intrinsic"/>
   <Card.Body>
