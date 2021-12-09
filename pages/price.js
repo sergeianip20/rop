@@ -154,7 +154,7 @@ return <div>
 
 <form>
 {(phoneDirty && phoneError) && <div style={{color: "red"}}>{phoneError}</div>}
-<input onChange={ e => phoneHandeler(e)} value={phone} onBlur={e => {blueHadler(e)}} type="text" name="phone"
+<input onChange={ e => phoneHandler(e)} value={phone} onBlur={e => {blueHadler(e)}} type="text" name="phone"
 placeholder="напишите номер"/>
 
 {(messageDirty && messageError) && <div style={{color: "red"}}>{messageError}</div>}
