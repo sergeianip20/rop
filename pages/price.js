@@ -7,7 +7,7 @@ import Chr from '../public/Chr.jpg'
 import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
-Inport Tort from '../public/tort.jpg'
+Inport Tort from '../public/Tort.jpg'
 
 
 
