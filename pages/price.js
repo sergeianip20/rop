@@ -35,6 +35,15 @@ useEffect( () => {
     
     
     [nameError, phoneError, messageError,]})
+const phoneHandeler = (e) => {
+    setphone(e.target.value)
+    const re =/^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
+    if(!re.test(String(e.target.value).toLowerCase())){
+    setphoneError('введите номер')
+    }else {
+    setphoneError("")
+    }
+    }
 const nameHandler = (e) => {
     setname(e.target.value)
     if(e.target.value.length < 3 || e.target.value.length > 8 ) {
@@ -154,7 +163,7 @@ return <div>
 
 <form>
 {(phoneDirty && phoneError) && <div style={{color: "red"}}>{phoneError}</div>}
-<input onChange={ e => phoneHandler(e)} value={phone} onBlur={e => {blueHadler(e)}} type="text" name="phone"
+<input onChange={ e => phoneHandeler(e)} value={phone} onBlur={e => {blueHadler(e)}} type="text" name="phone"
 placeholder="напишите номер"/>
 
 {(messageDirty && messageError) && <div style={{color: "red"}}>{messageError}</div>}
