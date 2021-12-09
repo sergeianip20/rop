@@ -35,3 +35,12 @@ border-raduis: 5px 5px 5px 5px;
 display: grid;
 grid-template-columns: 1fr 1fr;
 }
+.user_grid {
+display: grid;
+grid-template-columns: 1fr;
+
+
+}
+.users_item {
+padding: 0px 0px 5px 15px;
+}
