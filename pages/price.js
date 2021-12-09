@@ -8,7 +8,7 @@ import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
 import Tort from '../public/Tort.jpg'
-import useState from 'react'
+import {useState} from 'react'
 
 
 
