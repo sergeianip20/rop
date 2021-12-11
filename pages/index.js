@@ -7,6 +7,7 @@ import Chr from '../public/Chr.jpg'
 import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
+import Ter from '../public/ter.jpg'
 
 
 export default function Home() {
@@ -40,7 +41,7 @@ return <div>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Chr} alt="Vercel Logo"  layout="intrinsic" />
+<Image src={Ter} alt="Vercel Logo"  layout="intrinsic" />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
