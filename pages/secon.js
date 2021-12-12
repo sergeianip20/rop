@@ -12,6 +12,8 @@ import {useState, useEffect} from 'react'
 import Ter from '../public/ter.jpg'
 import TortVali from '../public/ValinTort.JPG'
 import ValinTort from '../public/ValinTort1.jpg'
+import Tortvali3 from '../public/Tortvali3.jpg'
+import TortBoom from '../public/Tortboom.jpg'
 
 
 
@@ -118,13 +120,13 @@ return <div>
 <div>
 <Carousel>
 <Carousel.Item>
-<Image src={Tort1} alt="Vercel Logo" layout="intrinsic"  />
+<Image src={Tortvali3} alt="Vercel Logo" layout="intrinsic"  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Ter} alt="Vercel Logo"  layout="intrinsic" />
+<Image src={TortBoom} alt="Vercel Logo"  layout="intrinsic" />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
