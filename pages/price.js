@@ -10,7 +10,8 @@ import Inst from '../public/inst.jpg'
 import Tort from '../public/Tort.jpg'
 import {useState, useEffect} from 'react'
 import Ter from '../public/ter.jpg'
-
+import TortVali from '../public/ValinTort.jpg'
+import ValinTort from '../public/ValinTort1.jpg'
 
 
 
@@ -133,7 +134,7 @@ return <div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Tort} layout="intrinsic"/>
+  <Image src={TortVali} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
@@ -158,15 +159,22 @@ return <div>
     <Card.Text>
       
     </Card.Text>
-    
-    
-
-    
-   
   </Card.Body>
 </Card>
 </div  >
-
+</div>
+<div className = {s.users_grid}>
+  <div className = {s.users_item} >
+<Card style={{ width: '18rem' }}>
+  <Image src={ValinTort} layout="intrinsic"/>
+  <Card.Body>
+    <Card.Title>Торты от Вали </Card.Title>
+    <Card.Text>
+      
+    </Card.Text>
+  </Card.Body>
+</Card>
+</div  >
 </div>
 
 
