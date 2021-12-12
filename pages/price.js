@@ -15,6 +15,14 @@ import Ter from '../public/ter.jpg'
 
 
 export default function price() {
+
+const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
+
 const [name, setname] = useState('')
 const [phone, setphone] = useState('')
     const [message, setmessage] = useState('')
