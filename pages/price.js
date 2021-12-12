@@ -109,7 +109,6 @@ return <div>
 <NavDropdown.Divider />
 <NavDropdown.Item > <Link href= '/price'><a className = {s.sa}>именные</a></Link> </NavDropdown.Item>
 </NavDropdown>
-<Nav.Link href="#features">Прайс</Nav.Link>
 </Nav>
 </Navbar.Collapse>
 </Container>
