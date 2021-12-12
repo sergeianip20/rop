@@ -9,6 +9,7 @@ import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
 import Tort from '../public/Tort.jpg'
 import {useState, useEffect} from 'react'
+import Ter from '../public/ter.jpg
 
 
 
@@ -115,7 +116,7 @@ return <div>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Tort} alt="Vercel Logo"  layout="intrinsic" />
+<Image src={Ter} alt="Vercel Logo"  layout="intrinsic" />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
