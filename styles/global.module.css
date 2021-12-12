@@ -45,3 +45,12 @@ grid-template-columns: 1fr 1fr 1fr;
 padding: 0px 0px 5px 60px;
 
 }
+.button_css {
+  background: linear-gradient(pink,
+turquoise);
+    padding:5px 10px 5px 10px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
