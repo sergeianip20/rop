@@ -170,15 +170,7 @@ return <div>
 
 </div>
 
-<button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
 
-     
-
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Заказ обратный звонок</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
      <div>
 
 <form>
@@ -204,13 +196,17 @@ placeholder="напишите имя"/>
 </form>
 
 </div>
+<button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Заказ обратный звонок</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
 </Modal.Body>
-    
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          
         </Modal.Footer>
       </Modal>
 </div>
