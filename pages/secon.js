@@ -14,7 +14,7 @@ import TortVali from '../public/ValinTort.JPG'
 import ValinTort from '../public/ValinTort1.jpg'
 import Tortvali3 from '../public/Tortvali3.jpg'
 import TortBoom from '../public/Tortboom.jpg'
-
+import Yesterday from '../public/Yesterday1.jpg'
 
 
 export default function secon() {
@@ -168,7 +168,7 @@ return <div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={ValinTort} layout="intrinsic"/>
+  <Image src={Yesterday} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
