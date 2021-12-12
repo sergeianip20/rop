@@ -196,6 +196,7 @@ placeholder="напишите имя"/>
 </form>
 
 </div>
+<div>
 <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -209,6 +210,7 @@ placeholder="напишите имя"/>
           </Button>
         </Modal.Footer>
       </Modal>
+</div>
 </div>
 
 
