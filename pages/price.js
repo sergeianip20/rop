@@ -3,12 +3,13 @@ import {Navbar, Nav, NavDropdown, Container, Carousel, Card, CardGroup } from 'r
 import  'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link'
 import Image from 'next/image'
-import Chr from '../public/Chr.jpg'
+import Tort from '../public/Tort1.jpg'
 import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
 import Tort from '../public/Tort.jpg'
 import {useState, useEffect} from 'react'
+
 
 
 
@@ -108,13 +109,13 @@ return <div>
 <div>
 <Carousel>
 <Carousel.Item>
-<Image src={Chr} alt="Vercel Logo" layout="intrinsic"  />
+<Image src={Tort1} alt="Vercel Logo" layout="intrinsic"  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Chr} alt="Vercel Logo"  layout="intrinsic" />
+<Image src={Tort} alt="Vercel Logo"  layout="intrinsic" />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
