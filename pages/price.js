@@ -3,7 +3,7 @@ import {Navbar, Nav, NavDropdown, Container, Carousel, Card, CardGroup } from 'r
 import  'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link'
 import Image from 'next/image'
-import Tort from '../public/Tort1.jpg'
+import Tort1 from '../public/Tort1.jpg'
 import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
