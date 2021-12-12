@@ -170,7 +170,7 @@ return <div>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
-      
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
     </Card.Text>
   </Card.Body>
 </Card>
@@ -180,7 +180,7 @@ return <div>
 
      
 <div>
-<button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
+
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Заказ обратный звонок</Modal.Title>
