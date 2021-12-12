@@ -138,7 +138,7 @@ return <div>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
-      
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
     </Card.Text>
     
     
@@ -157,7 +157,7 @@ return <div>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
-      
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
     </Card.Text>
   </Card.Body>
 </Card>
@@ -170,7 +170,7 @@ return <div>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
-      
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
     </Card.Text>
   </Card.Body>
 </Card>
