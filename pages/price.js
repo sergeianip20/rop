@@ -12,6 +12,7 @@ import {useState, useEffect} from 'react'
 import Ter from '../public/ter.jpg'
 import TortVali from '../public/ValinTort.JPG'
 import ValinTort from '../public/ValinTort1.jpg'
+import Svadiba from '../public/Svadiba.jpg'
 
 
 
@@ -167,6 +168,19 @@ return <div>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
   <Image src={ValinTort} layout="intrinsic"/>
+  <Card.Body>
+    <Card.Title>Торты от Вали </Card.Title>
+    <Card.Text>
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
+    </Card.Text>
+  </Card.Body>
+</Card>
+</div  >
+</div>
+<div className = {s.users_grid}>
+  <div className = {s.users_item} >
+<Card style={{ width: '18rem' }}>
+  <Image src={Svadiba} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
