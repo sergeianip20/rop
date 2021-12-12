@@ -10,7 +10,7 @@ import Inst from '../public/inst.jpg'
 import Tort from '../public/Tort.jpg'
 import {useState, useEffect} from 'react'
 import Ter from '../public/ter.jpg'
-import TortVali from '../public/ValinTort.jpg'
+import TortVali from '../public/ValinTort.JPG'
 import ValinTort from '../public/ValinTort1.jpg'
 
 
