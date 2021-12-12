@@ -9,7 +9,7 @@ import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
 import Tort from '../public/Tort.jpg'
 import {useState, useEffect} from 'react'
-import Ter from '../public/ter.jpg
+import Ter from '../public/ter.jpg'
 
 
 
