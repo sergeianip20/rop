@@ -61,3 +61,8 @@ width: 75px;
 height: 75px;
 
 }
+.item{
+border: 2px solid black;
+box-shadow:   5px 5px 5px black;
+}
+
