@@ -17,7 +17,7 @@ import TortBoom from '../public/Tortboom.jpg'
 import Yesterday from '../public/Yesterday1.jpg'
 import Smoking from '../public/Smoking.jpg'
 import Junior from '../public/Junior.jpg'
-
+import Junior from '../public/Junior 2.jpg'
 
 
 export default function secon() {
@@ -139,7 +139,7 @@ return <div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Ter} layout="intrinsic"/>
+  <Image src={Junior2} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
