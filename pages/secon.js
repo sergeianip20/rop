@@ -17,7 +17,7 @@ import TortBoom from '../public/Tortboom.jpg'
 import Yesterday from '../public/Yesterday1.jpg'
 import Smoking from '../public/Smoking.jpg'
 import Junior from '../public/Junior.jpg'
-import Junior1 from '../public/Junior 1.jpg'
+
 
 
 export default function secon() {
@@ -124,12 +124,6 @@ return <div>
 <Carousel>
 <Carousel.Item>
 <Image src={Junior} alt="Vercel Logo" layout="intrinsic"  />
-<Carousel.Caption>
-<h3>Торты</h3>
-</Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-<Image src={Junior1} alt="Vercel Logo" layout="intrinsic"  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
