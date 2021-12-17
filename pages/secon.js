@@ -251,6 +251,12 @@ placeholder="напишите имя"/>
 Можете зайти в на мою страницу в VK там тоже очень моих работ
 </div>
 </div>
+
+<div className={s.item}>
+<div className = {s.vk_items}>
+Ещё больше красивых Тортов вы можете увидеть в Моем Инстаграмме !
+</div>
+</div>
 <div className={s.item}>
 <div className = {s.vk_items1}>
 <a href="https://instagram.com/vp.cake?utm_medium=copy_link">
@@ -259,7 +265,7 @@ placeholder="напишите имя"/>
 </a>
 </div>
 </div>
-Ещё больше красивых Тортов вы можете увидеть в Моем Инстаграмме !
+
 </div>
 </div>
 </div>
