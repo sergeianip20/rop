@@ -248,10 +248,11 @@ placeholder="напишите имя"/>
 <div className = {s.vk_items1}>
 <a href="https://instagram.com/vp.cake?utm_medium=copy_link">
 <Image src={Inst} layout="intrinsic"/>
-Ещё больше красивых Тортов вы можете увидеть в Моем Инстаграмме !
+
 </a>
 </div>
 </div>
+Ещё больше красивых Тортов вы можете увидеть в Моем Инстаграмме !
 </div>
 </div>
 </div>
