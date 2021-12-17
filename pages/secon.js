@@ -129,7 +129,7 @@ return <div>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Junior} alt="Vercel Logo" layout="intrinsic"  />
+<Image src={Junior1} alt="Vercel Logo" layout="intrinsic"  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
@@ -145,7 +145,7 @@ return <div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Junior} layout="intrinsic"/>
+  <Image src={Ter} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
