@@ -16,6 +16,8 @@ import Tortvali3 from '../public/Tortvali3.jpg'
 import TortBoom from '../public/Tortboom.jpg'
 import Yesterday from '../public/Yesterday1.jpg'
 import Smoking from '../public/Smoking.jpg'
+import Junior from '../public/Junior.jpg'
+import Junior from '../public/Junior1.jpg'
 
 
 export default function secon() {
@@ -121,7 +123,13 @@ return <div>
 <div>
 <Carousel>
 <Carousel.Item>
-<Image src={Tortvali3} alt="Vercel Logo" layout="intrinsic"  />
+<Image src={Junior} alt="Vercel Logo" layout="intrinsic"  />
+<Carousel.Caption>
+<h3>Торты</h3>
+</Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+<Image src={Junior} alt="Vercel Logo" layout="intrinsic"  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
@@ -137,7 +145,7 @@ return <div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={TortVali} layout="intrinsic"/>
+  <Image src={Junior} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
