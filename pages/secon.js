@@ -236,7 +236,6 @@ placeholder="напишите имя"/>
         </Modal.Footer>
       </Modal>
 <div className={s.vk_grid}>
-
 <div className={s.item}>
 <div className = {s.vk_items}>
 <div className = {s.textvc}>
@@ -245,15 +244,12 @@ placeholder="напишите имя"/>
 </a>
 </div>
 </div>
-
-
 </div>
 <div className={s.item}>
 <div className = {s.vk_items}>
 Можете зайти в на мою страницу в VK там тоже очень моих работ
 </div>
 </div>
-
 <div className={s.item}>
 <div className = {s.vk_items}>
 <div className = {s.textinst}>
@@ -265,12 +261,11 @@ placeholder="напишите имя"/>
 <div className = {s.vk_items1}>
 <a href="https://instagram.com/vp.cake?utm_medium=copy_link">
 <Image src={Inst} layout="intrinsic"/>
-
 </a>
 </div>
 </div>
-
 </div>
+
 </div>
 </div>
 
