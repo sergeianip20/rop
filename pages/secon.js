@@ -244,6 +244,7 @@ placeholder="напишите имя"/>
 <Image src={Vc} layout="intrinsic"/>
 </a>
 </div>
+</div>
 
 
 </div>
