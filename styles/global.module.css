@@ -35,6 +35,10 @@ border-raduis: 5px 5px 5px 5px;
 display: grid;
    background: rgba(175, 238, 238, 1);
 grid-template-columns: 1fr 1fr;
+border: 2px solid black;
+box-shadow:   5px 5px 5px black;
+border-radius: 5px 5px 5px 5px;
+
 }
 .user_grid {
 display: grid;
