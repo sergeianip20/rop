@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Tort1 from '../public/Tort1.jpg'
 import Profile from '../public/Profile.jpg'
-import Vk from '../public/vk.png'
+import Vc from '../public/Vc.png'
 import Inst from '../public/inst.jpg'
 import Tort from '../public/Tort.jpg'
 import {useState, useEffect} from 'react'
@@ -240,7 +240,7 @@ placeholder="напишите имя"/>
 <div className={s.item}>
 <div className = {s.vk_items}>
 <a href="https://vk.com/valpop87">
-<Image src={Vk} layout="intrinsic"/>
+<Image src={Vc} layout="intrinsic"/>
 </a>
 </div>
 
