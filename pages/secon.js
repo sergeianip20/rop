@@ -243,6 +243,13 @@ placeholder="напишите имя"/>
 <Image src={Vk} layout="intrinsic"/>
 </a>
 </div>
+
+
+</div>
+<div className={s.item}>
+<div className = {s.vk_items}>
+Можете зайти в на мою страницу в VK там тоже очень моих работ
+</div>
 </div>
 <div className={s.item}>
 <div className = {s.vk_items1}>
