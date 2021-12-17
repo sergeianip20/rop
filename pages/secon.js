@@ -15,6 +15,7 @@ import ValinTort from '../public/ValinTort1.jpg'
 import Tortvali3 from '../public/Tortvali3.jpg'
 import TortBoom from '../public/Tortboom.jpg'
 import Yesterday from '../public/Yesterday1.jpg'
+import Smoking from '../public/Smoking.jpg'
 
 
 export default function secon() {
@@ -178,7 +179,19 @@ return <div>
 </Card>
 </div  >
 </div>
-
+<div className = {s.users_grid}>
+  <div className = {s.users_item} >
+<Card style={{ width: '18rem' }}>
+  <Image src={Smoking} layout="intrinsic"/>
+  <Card.Body>
+    <Card.Title>Торты от Вали </Card.Title>
+    <Card.Text>
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
+    </Card.Text>
+  </Card.Body>
+</Card>
+</div  >
+</div>
 
      
 <div>
