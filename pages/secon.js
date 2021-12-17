@@ -239,6 +239,7 @@ placeholder="напишите имя"/>
 
 <div className={s.item}>
 <div className = {s.vk_items}>
+<div className = {s.textvc}>
 <a href="https://vk.com/valpop87">
 <Image src={Vc} layout="intrinsic"/>
 </a>
