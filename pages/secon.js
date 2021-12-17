@@ -254,7 +254,7 @@ placeholder="напишите имя"/>
 
 <div className={s.item}>
 <div className = {s.vk_items}>
-<div classNamr = {s.textinst}>
+<div className = {s.textinst}>
 Ещё больше красивых Тортов вы можете увидеть в Моем Инстаграмме !
 </div>
 </div>
