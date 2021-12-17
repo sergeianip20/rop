@@ -33,9 +33,9 @@ border-raduis: 5px 5px 5px 5px;
 }
 .vk_grid {
 display: grid;
- R u. R.         background: rgba(175, 238, 238, 1);
+   background: rgba(175, 238, 238, 1);
 }
-.user_grid {ubb.    C.    U c.  R. 
+.user_grid {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 
