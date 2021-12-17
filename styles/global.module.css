@@ -34,6 +34,7 @@ border-raduis: 5px 5px 5px 5px;
 .vk_grid {
 display: grid;
 grid-template-columns: 1fr 1fr;
+background: rgba(215, 154, 181, 1);
 }
 .user_grid {
 display: grid;
