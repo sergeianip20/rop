@@ -55,6 +55,19 @@ return<div>
 </Carousel.Item>
 </Carousel>
 </div>
+<div className = {s.users_grid}>
+  <div className = {s.users_item} >
+<Card style={{ width: '18rem' }}>
+  <Image src={Ubil} layout="intrinsic"/>
+  <Card.Body>
+    <Card.Title>Торты от Вали </Card.Title>
+    <Card.Text>
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
+    </Card.Text>
+  </Card.Body>
+</Card>
+</div  >
+</div>
 
 </div>
 
