@@ -49,7 +49,7 @@ return<div>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Ubil2} alt="Vercel Logo"  layout="intrinsic" />
+<Image src={Book} alt="Vercel Logo"  layout="intrinsic" />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
