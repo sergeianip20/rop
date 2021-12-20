@@ -8,6 +8,10 @@ import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
 import Ter from '../public/ter.jpg'
+import Ubil from '../public/Ubil.jpg'
+import Ubil2 from '../public/Ubil2.jpg'
+import Ubil4 from '../public/Ubil4.jpg'
+import Book from '../public/book.jpg'
 
 
 
@@ -39,13 +43,13 @@ return<div>
 <div>
 <Carousel>
 <Carousel.Item>
-<Image src={Tort} alt="Vercel Logo" layout="intrinsic"  />
+<Image src={Ubil} alt="Vercel Logo" layout="intrinsic"  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Ter} alt="Vercel Logo"  layout="intrinsic" />
+<Image src={Ubil2} alt="Vercel Logo"  layout="intrinsic" />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
