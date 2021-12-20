@@ -70,60 +70,7 @@ return<div>
 </Carousel.Item>
 </Carousel>
 </div>
-<div>
-<div className = {s.users_grid}>
-  <div className = {s.users_item} >
-<Card style={{ width: '18rem' }}>
-  <Image src={TortVali} layout="intrinsic"/>
-  <Card.Body>
-    <Card.Title>Торты от Вали </Card.Title>
-    <Card.Text>
-      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
-    </Card.Text>
-  </Card.Body>
-</Card>
-</div>
-</div>
-<div className = {s.users_grid}>
-  <div className = {s.users_item} >
-<Card style={{ width: '18rem' }}>
-  <Image src={Tort} layout="intrinsic"/>
-  <Card.Body>
-    <Card.Title>Торты от Вали </Card.Title>
-    <Card.Text>
-      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
-    </Card.Text>
-  </Card.Body>
-</Card>
-</div>
-</div>
-<div className = {s.users_grid}>
-  <div className = {s.users_item} >
-<Card style={{ width: '18rem' }}>
-  <Image src={ValinTort} layout="intrinsic"/>
-  <Card.Body>
-    <Card.Title>Торты от Вали </Card.Title>
-    <Card.Text>
-      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
-    </Card.Text>
-  </Card.Body>
-</Card>
-</div >
-</div>
-<div className = {s.users_grid}>
-  <div className = {s.users_item} >
-<Card style={{ width: '18rem' }}>
-  <Image src={Svadiba} layout="intrinsic"/>
-  <Card.Body>
-    <Card.Title>Торты от Вали </Card.Title>
-    <Card.Text>
-      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
-    </Card.Text>
-  </Card.Body>
-</Card>
-</div>
-</div>
-</div>
+
 </div>
 
 }
