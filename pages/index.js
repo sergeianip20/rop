@@ -8,10 +8,12 @@ import Profile from '../public/Profile.jpg'
 import Vk from '../public/vk.png'
 import Inst from '../public/inst.jpg'
 import Ter from '../public/ter.jpg'
-
+import Head from 'next/head'
 
 export default function Home() {
 return <div>
+<Head>
+</Head>
 
 <div className ={s.body}>
 <Navbar collapseOnSelect expand="lg"  variant="dark">
