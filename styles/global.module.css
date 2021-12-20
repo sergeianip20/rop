@@ -43,7 +43,7 @@ border-radius: 5px 5px 5px 5px;
 .user_grid {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-
+box-shadow:   5px 5px 5px black;
 
 }
 .users_item {
