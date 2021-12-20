@@ -3,6 +3,11 @@ import {Navbar, Nav, NavDropdown, Container, Carousel, Card, CardGroup } from 'r
 import  'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link'
 import Image from 'next/image'
+import Tort from '../public/Tort1.jpg'
+import Profile from '../public/Profile.jpg'
+import Vk from '../public/vk.png'
+import Inst from '../public/inst.jpg'
+import Ter from '../public/ter.jpg'
 
 
 
@@ -30,6 +35,22 @@ return<div>
 </Navbar.Collapse>
 </Container>
 </Navbar>
+</div>
+<div>
+<Carousel>
+<Carousel.Item>
+<Image src={Tort} alt="Vercel Logo" layout="intrinsic"  />
+<Carousel.Caption>
+<h3>Торты</h3>
+</Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+<Image src={Ter} alt="Vercel Logo"  layout="intrinsic" />
+<Carousel.Caption>
+<h3>Торты</h3>
+</Carousel.Caption>
+</Carousel.Item>
+</Carousel>
 </div>
 </div>
 
