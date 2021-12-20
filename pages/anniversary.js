@@ -43,7 +43,7 @@ return<div>
 <div>
 <Carousel>
 <Carousel.Item>
-<Image src={Ubil} alt="Vercel Logo" layout="intrinsic"  />
+<Image src={Ubil2} alt="Vercel Logo" layout="intrinsic"  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
