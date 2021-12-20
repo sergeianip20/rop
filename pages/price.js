@@ -110,6 +110,8 @@ return <div>
 <NavDropdown.Item > <Link href= '/'><a className = {s.sa}>заказ</a></Link> </NavDropdown.Item>
 <NavDropdown.Divider />
 <NavDropdown.Item > <Link href= '/price'><a className = {s.sa}>Свадебные</a></Link> </NavDropdown.Item>
+<NavDropdown.Item > <Link href= '/anniversary'><a className = {s.sa}>Юбилейные</a></Link> </NavDropdown.Item>
+
 </NavDropdown>
 </Nav>
 </Navbar.Collapse>
