@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React ,{useState, useEffect} from 'react'
 
 
 import s from  '../styles/global.module.css'
@@ -37,7 +37,63 @@ const [phone, setphone] = useState('')
     const [formValid, setFormValid] = useState(false)
     const [chex, setchex] = useState(false)
     const [chexError, setChexError] = useState('я соглашаюсь на обработку моих персональных данных')
-
+ useEffect( () => {
+    if(nameError || phoneError || messageError ) {
+    setFormValid(false)
+    }else {
+    setFormValid(true)
+    }
+    
+    
+    [nameError, phoneError, messageError,]})
+const phoneHandeler = (e) => {
+    setphone(e.target.value)
+    const re =/^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
+    if(!re.test(String(e.target.value).toLowerCase())){
+    setphoneError('введите номер')
+    }else {
+    setphoneError("")
+    }
+    }
+const nameHandler = (e) => {
+    setname(e.target.value)
+    if(e.target.value.length < 3 || e.target.value.length > 8 ) {
+    setnameError('введите нужное значение ')
+    if(!e.target.value){
+    setnameError('введите нужное значение ')
+    }
+    }else {
+    setnameError('')
+    }
+    }
+    const messageHandler = (e) => {
+    setmessage(e.target.value)
+    if(e.target.value.length < 6
+    || e.target.value.length > 15 ) {
+    setmessageError('введите нужное значение ')
+    if(!e.target.value){
+    setmessageError('введите нужное значение ')
+    }
+    }else {
+    setmessageError('')
+    }
+    }
+    
+   
+    
+    const blueHadler =(e)=> {
+    switch(e.target.name){
+    case 'name':
+    setNameDirty(true)
+    break
+    case 'phone':
+    setPhoneDirty(true)
+    break
+    case 'message':
+    setmessageDirty(true)
+    break  
+   
+    }  }
 return<div>
 
 <div className ={s.body}>
