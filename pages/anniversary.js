@@ -12,7 +12,7 @@ import Ubil from '../public/Ubil.jpg'
 import Ubil2 from '../public/Ubil2.jpg'
 import Ubil4 from '../public/Ubil4.jpg'
 import Book from '../public/book.jpg'
-
+import Ubil3 from '../public/Ubil3.jpg'
 
 export default  function anniversary(){
 return<div>
@@ -58,7 +58,7 @@ return<div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Ubil} layout="intrinsic"/>
+  <Image src={Ubil3} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
@@ -71,7 +71,7 @@ return<div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Ubil} layout="intrinsic"/>
+  <Image src={Ubil3} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
@@ -84,7 +84,7 @@ return<div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Ubil} layout="intrinsic"/>
+  <Image src={Ubil3} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
@@ -97,7 +97,7 @@ return<div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Ubil} layout="intrinsic"/>
+  <Image src={Ubil3} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
