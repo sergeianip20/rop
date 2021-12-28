@@ -1,3 +1,6 @@
+import React ,{useState} from 'react'
+
+
 import s from  '../styles/global.module.css'
 import {Navbar, Nav, NavDropdown, Container, Carousel, Card, CardGroup } from 'react-bootstrap'
 import  'bootstrap/dist/css/bootstrap.min.css';
@@ -15,6 +18,26 @@ import Book from '../public/book.jpg'
 import Ubil3 from '../public/Ubil3.jpg'
 
 export default  function anniversary(){
+const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
+
+const [name, setname] = useState('')
+const [phone, setphone] = useState('')
+    const [message, setmessage] = useState('')
+    const [nameDirty, setNameDirty] = useState(false)
+    const [phoneDirty, setPhoneDirty] = useState(false)
+    const [messageDirty, setmessageDirty] = useState(false)
+    const [nameError, setnameError] = useState('введите имя')
+    const [phoneError, setphoneError] = useState('введите номер')
+    const [messageError, setmessageError] = useState('напишите пожелания')
+    const [formValid, setFormValid] = useState(false)
+    const [chex, setchex] = useState(false)
+    const [chexError, setChexError] = useState('я соглашаюсь на обработку моих персональных данных')
+
 return<div>
 
 <div className ={s.body}>
