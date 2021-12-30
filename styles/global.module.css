@@ -80,3 +80,11 @@ height:100%;
 border-raduis: 5px 5px 5px 5px;
 box-shadow: 5px 5px 5px red;
 }
+
+@media(min-width: 767px){
+.secon_carosel {
+   widht: 100%;
+   height: 500px;
+   margin: 0px 0px 0px 50px;
+}
+ 
