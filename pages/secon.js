@@ -125,7 +125,9 @@ return <div>
 <div className={s.secon_carosel}>
 <Carousel>
 <Carousel.Item>
-<Image src={Junior} alt="Vercel Logo" layout="responsive"  />
+  <main className={s.secon_items}>
+<Image src={Junior} alt="Vercel Logo" layout="fill" />
+  </main>
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
