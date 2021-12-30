@@ -125,13 +125,13 @@ return <div>
 <div className={s.secon_carosel}>
 <Carousel>
 <Carousel.Item>
-<Image src={Junior} alt="Vercel Logo" layout="intrinsic"  />
+<Image src={Junior} alt="Vercel Logo" layout="responsive"  />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={TortBoom} alt="Vercel Logo"  layout="intrinsic" />
+<Image src={TortBoom} alt="Vercel Logo"  layout="responsive" />
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
