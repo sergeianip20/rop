@@ -86,6 +86,25 @@ box-shadow: 5px 5px 5px red;
     position: relative;
       
    }
+@media (max-width: 768px) {
+.secon_carosel {
+   widht: 100%;
+   height: 1100px;
+  
+}
+   .secon_grid {
+      display:grid;
+      widht:100%;
+       grid-template-rows: 30% 70%;
+   }
+   .secon_items {
+   widht:250px;
+      height: 500px;
+      position:relative;
+      
+   } 
+}
+
 @media(min-width: 767px){
 .secon_carosel {
    widht: 100%;
