@@ -87,4 +87,9 @@ box-shadow: 5px 5px 5px red;
    height: 500px;
    margin: 0px 0px 0px 50px;
 }
+   .secon_grid {
+      display:grid;
+      widht:100%;
+       grid-template-columns: 30% 70%;
+   }
 } 
