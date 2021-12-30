@@ -120,7 +120,7 @@ return <div>
 </Container>
 </Navbar>
 </div>
-<div>
+<div className={s.secon_carosel}>
 <Carousel>
 <Carousel.Item>
 <Image src={Junior} alt="Vercel Logo" layout="intrinsic"  />
