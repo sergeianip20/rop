@@ -154,11 +154,9 @@ return <div>
     <Card.Text>
       <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
     </Card.Text>
-   
-  </Card.Body>
+     </Card.Body>
 </Card>
-</div  >
-
+</div>
 </div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
@@ -171,7 +169,7 @@ return <div>
     </Card.Text>
   </Card.Body>
 </Card>
-</div  >
+</div>
 </div>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
@@ -201,7 +199,7 @@ return <div>
 
 </div>
 </div>
-</div>
+
      
 <div>
 
