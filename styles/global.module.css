@@ -125,5 +125,8 @@ box-shadow: 5px 5px 5px red;
       position:relative;
       margin: 0px 225px 0px 175px;
    } 
+   .secon_item1 {
+      margin: 150px 0px 0px 0px;
+   }
    
 } 
