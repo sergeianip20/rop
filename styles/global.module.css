@@ -118,6 +118,7 @@ box-shadow: 5px 5px 5px red;
       display:grid;
       widht:350px;
        grid-template-rows: 30% 70%;
+     margin: 0px 0px 25px 0px;
    }
    .secon_items {
    widht:350px;
@@ -125,8 +126,6 @@ box-shadow: 5px 5px 5px red;
       position:relative;
       margin: 0px 225px 0px 175px;
    } 
-   .secon_item1 {
-      margin: 150px 0px 0px 0px;
-   }
+   
    
 } 
