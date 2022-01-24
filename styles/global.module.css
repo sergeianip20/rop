@@ -86,13 +86,7 @@ box-shadow: 5px 5px 5px red;
     position: relative;
       
    }
-.secon_item1 {
- 
-   
-   display: grid;
-grid-template-columns: 1fr 1fr 1fr;
 
-}
 @media (max-width: 768px) {
 .secon_carosel {
    widht: 100%;
