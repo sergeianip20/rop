@@ -108,7 +108,7 @@ box-shadow: 5px 5px 5px red;
 @media(min-width: 767px){
 .secon_carosel {
    widht: 500px;
-   height: 1100px;
+   height: 750px;
    background: #3bb4d9;
   
 }
