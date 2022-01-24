@@ -87,6 +87,8 @@ box-shadow: 5px 5px 5px red;
       
    }
 .secon_item {
+   margin: 150px 0px 0px 0px ;
+   
    display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 
