@@ -88,13 +88,13 @@ box-shadow: 5px 5px 5px red;
    }
 @media (max-width: 768px) {
 .secon_carosel {
-   widht: 100%;
+   widht: 500px;
    height: 1100px;
   
 }
    .secon_grid {
       display:grid;
-      widht:100%;
+      widht:500px;
        grid-template-rows: 30% 70%;
    }
    .secon_items {
