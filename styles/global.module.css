@@ -40,7 +40,7 @@ box-shadow:   5px 5px 5px black;
 border-radius: 5px 5px 5px 5px;
 
 }
-.users_grid {
+.user_grid {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 box-shadow:   5px 5px 5px black;
@@ -104,11 +104,7 @@ box-shadow: 5px 5px 5px red;
       position:relative;
       
    } 
-   .users_grid {
-display: grid;
-
-
-}
+   
 }
 
 @media(min-width: 767px){
@@ -131,6 +127,11 @@ display: grid;
       position:relative;
       margin: 0px 225px 0px 175px;
    } 
-   
+   .users_grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+box-shadow:   5px 5px 5px black;
+margin: 125px 0px 0px 0px;
+}
    
 } 
