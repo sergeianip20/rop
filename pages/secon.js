@@ -157,8 +157,8 @@ return <div>
      </Card.Body>
 </Card>
 </div>
-</div>
-<div className = {s.users_grid}>
+
+
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
   <Image src={Tort} layout="intrinsic"/>
@@ -169,9 +169,9 @@ return <div>
     </Card.Text>
   </Card.Body>
 </Card>
+
 </div>
-</div>
-<div className = {s.users_grid}>
+
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
   <Image src={Yesterday} layout="intrinsic"/>
@@ -182,9 +182,9 @@ return <div>
     </Card.Text>
   </Card.Body>
 </Card>
-</div  >
+
 </div>
-<div className = {s.users_grid}>
+
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
   <Image src={Smoking} layout="intrinsic"/>
