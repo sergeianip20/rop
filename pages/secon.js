@@ -294,19 +294,19 @@ placeholder="напишите имя"/>
 </Card >
 </div>
 <div className={s.item}>
-   <Card   border="secondary"
+  <Card   border="secondary"
       style={{ width: '18rem' }}
     className="mb-2">
        <Card.Body>
             <Card.Text>
-<div className={s.grid}>
-<div className = {s.vk_items1}>
+       <div className = {s.vk_items}>
+<div className = {s.textvc}>
 <a href="https://instagram.com/vp.cake?utm_medium=copy_link">
 <Image src={Inst} layout="intrinsic"/>
 </a>
 </div>
 </div>
-</Card.Text>
+      </Card.Text>
     </Card.Body>
 
 </Card >
