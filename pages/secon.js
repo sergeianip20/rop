@@ -260,11 +260,27 @@ placeholder="напишите имя"/>
 </Card >
 </div>
 <div className={s.item}>
+   <Card   border="secondary"
+      style={{ width: '18rem' }}
+    className="mb-2">
+       <Card.Body>
+            <Card.Text>
 <div className = {s.vk_items}>
 Можете зайти в на мою страницу в VK там тоже очень моих работ
 </div>
+
+      </Card.Text>
+    </Card.Body>
+
+</Card >
 </div>
 <div className={s.item}>
+    <Card   border="secondary"
+      style={{ width: '18rem' }}
+    className="mb-2">
+       <Card.Body>
+            <Card.Text>
+     
 <div className = {s.grid}>
 <div className = {s.vk_items}>
 <div className = {s.textinst}>
@@ -272,8 +288,17 @@ placeholder="напишите имя"/>
 </div>
 </div>
 </div>
+ </Card.Text>
+    </Card.Body>
+
+</Card >
 </div>
 <div className={s.item}>
+   <Card   border="secondary"
+      style={{ width: '18rem' }}
+    className="mb-2">
+       <Card.Body>
+            <Card.Text>
 <div className={s.grid}>
 <div className = {s.vk_items1}>
 <a href="https://instagram.com/vp.cake?utm_medium=copy_link">
@@ -281,6 +306,10 @@ placeholder="напишите имя"/>
 </a>
 </div>
 </div>
+</Card.Text>
+    </Card.Body>
+
+</Card >
 </div>
 </div>
 
