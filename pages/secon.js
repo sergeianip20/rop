@@ -247,7 +247,22 @@ placeholder="напишите имя"/>
   <Row>
     <Col> Ещё больше красивых Тортов вы можете увидеть в Моем Инстаграмме !</Col>
     <Col xs={5}>Можете зайти в на мою страницу в VK там тоже очень моих работ (wider)</Col>
-    <Col>3 of 3</Col>
+    <Col><Card   border="secondary"
+      style={{ width: '18rem' }}
+    className="mb-2">
+       <Card.Body>
+            <Card.Text>
+       <div className = {s.vk_items}>
+<div className = {s.textvc}>
+<a href="https://vk.com/valpop87">
+<Image src={Vc} layout="intrinsic"/>
+</a>
+</div>
+</div>
+      </Card.Text>
+    </Card.Body>
+
+</Card ></Col>
   </Row>
 </Container>
 
