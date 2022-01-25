@@ -242,13 +242,22 @@ placeholder="напишите имя"/>
       </Modal>
 <div className={s.vk_grid}>
 <div className={s.item}>
-<div className = {s.vk_items}>
+  <Card  
+      style={{ width: '18rem' }}
+    className="mb-2">
+       <Card.Body>
+            <Card.Text>
+       <div className = {s.vk_items}>
 <div className = {s.textvc}>
 <a href="https://vk.com/valpop87">
 <Image src={Vc} layout="intrinsic"/>
 </a>
 </div>
 </div>
+      </Card.Text>
+    </Card.Body>
+
+</Card >
 </div>
 <div className={s.item}>
 <div className = {s.vk_items}>
