@@ -242,7 +242,7 @@ placeholder="напишите имя"/>
       </Modal>
 <div className={s.vk_grid}>
 <div className={s.item}>
-  <Card  
+  <Card   border="secondary"
       style={{ width: '18rem' }}
     className="mb-2">
        <Card.Body>
