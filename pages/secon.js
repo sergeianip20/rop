@@ -1,5 +1,5 @@
 import s from  '../styles/global.module.css'
-import {Navbar, Nav, NavDropdown, Container, Carousel, Card, CardGroup, Modal, Button  } from 'react-bootstrap'
+import {Navbar, Nav, NavDropdown, Container, Carousel, Card, CardGroup, Modal, Button, Row, Col  } from 'react-bootstrap'
 import  'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link'
 import Image from 'next/image'
@@ -242,6 +242,14 @@ placeholder="напишите имя"/>
       </Modal>
 
 </div>
+<Container>
+  
+  <Row>
+    <Col> Ещё больше красивых Тортов вы можете увидеть в Моем Инстаграмме !</Col>
+    <Col xs={5}>Можете зайти в на мою страницу в VK там тоже очень моих работ (wider)</Col>
+    <Col>3 of 3</Col>
+  </Row>
+</Container>
 
 </div>
 }
