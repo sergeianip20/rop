@@ -37,22 +37,29 @@ return <div>
 </Container>
 </Navbar>
 </div>
-<div>
+<div className={s.secon_grid}>
+    <div className={s.secon_item}>
+<div className={s.secon_carosel}>
 <Carousel>
 <Carousel.Item>
-<Image src={Tort} alt="Vercel Logo" layout="intrinsic"  />
+  <main className={s.secon_items}>
+<Image src={Tort} alt="Vercel Logo" layout="fill" />
+  </main>
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Ter} alt="Vercel Logo"  layout="intrinsic" />
+  <main className={s.secon_items}>
+<Image src={Ter} alt="Vercel Logo"  layout="fill" />
+  </main>
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 </Carousel>
 </div>
+  </div>
 
 <Image src={Profile} layout="intrinsic"/>
 
