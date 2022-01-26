@@ -243,7 +243,7 @@ placeholder="напишите имя"/>
 
 </div>
 <div className={s.container}>
-  <Card >
+  <Card bg='Secondary' >
   <Card.Body>
 <Container variant="secondary">
   
