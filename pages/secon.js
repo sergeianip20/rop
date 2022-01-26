@@ -242,15 +242,16 @@ placeholder="напишите имя"/>
       </Modal>
 
 </div>
+<div className={s.container}>
 <Container variant="secondary">
-  <div className={s.container}>
+  
   <Row>
       <Col>  <Button variant="outline-info"><Link href= '/secon'><a className = {s.sa}>Детские</a></Link></Button>  </Col>  
   <Col><Button variant="outline-info"><Link href= '/'><a className = {s.sa}>Заказ</a></Link></Button></Col> 
  <Col><Button variant="outline-info"><Link href= '/price'><a className = {s.sa}>Свадебные</a></Link></Button></Col>
 <Col><Button variant="outline-info"><Link href= '/'><a className = {s.sa}>детские</a></Link></Button></Col>
   </Row>
-</div>
+
   <Row>
     <Col> Ещё больше красивых Тортов вы можете увидеть в Моем Инстаграмме !</Col>
     <Col xs={5}>Можете зайти в на мою страницу в VK там тоже очень моих работ (wider)</Col>
@@ -260,7 +261,7 @@ placeholder="напишите имя"/>
       </Col>
   </Row>
 </Container>
-
+</div>
 </div>
 }
 
