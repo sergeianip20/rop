@@ -244,6 +244,7 @@ placeholder="напишите имя"/>
 </div>
 <div className={s.container}>
   <Card>
+  <Card.Body>
 <Container variant="secondary">
   
   <Row>
@@ -262,6 +263,7 @@ placeholder="напишите имя"/>
       </Col>
   </Row>
 </Container>
+</Card.Body>
 </Card>
 </div>
 </div>
