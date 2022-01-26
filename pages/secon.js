@@ -243,7 +243,7 @@ placeholder="напишите имя"/>
 
 </div>
 <div className={s.container}>
-  <Card style={{ width: '25rem' }}>
+  <Card >
   <Card.Body>
 <Container variant="secondary">
   
