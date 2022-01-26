@@ -42,7 +42,7 @@ return <div>
 <div className={s.secon_carosel}>
 <Carousel>
 <Carousel.Item>
-  <main className={s.secon_items}>
+  <main className={s.secon_items1}>
 <Image src={Tort} alt="Vercel Logo" layout="fill" />
   </main>
 <Carousel.Caption>
@@ -50,7 +50,7 @@ return <div>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-  <main className={s.secon_items}>
+  <main className={s.secon_items1}>
 <Image src={Ter} alt="Vercel Logo"  layout="fill" />
   </main>
 <Carousel.Caption>
