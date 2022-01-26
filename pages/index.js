@@ -37,7 +37,7 @@ return <div>
 </Container>
 </Navbar>
 </div>
-<div className={s.secon_grid}>
+
     <div className={s.secon_item}>
 <div className={s.secon_carosel}>
 <Carousel>
