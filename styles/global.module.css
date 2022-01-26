@@ -86,7 +86,9 @@ border-raduis: 5px 5px 5px 5px;
     position: relative;
       
    }
-
+.container {
+background: #555;
+}
 @media (max-width: 768px) {
 .secon_carosel {
    widht: 100%;
