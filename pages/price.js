@@ -118,22 +118,29 @@ return <div>
 </Container>
 </Navbar>
 </div>
-<div>
+   <div className={s.secon_item}>
+<div className={s.secon_carosel1}>
 <Carousel>
 <Carousel.Item>
-<Image src={Tort1} alt="Vercel Logo" layout="intrinsic"  />
+  <main className={s.secon_items1}>
+<Image src={Tort1} alt="Vercel Logo" layout="fill" />
+  </main>
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
-<Image src={Ter} alt="Vercel Logo"  layout="intrinsic" />
+  <main className={s.secon_items1}>
+<Image src={Ter} alt="Vercel Logo"  layout="fill" />
+  </main>
 <Carousel.Caption>
 <h3>Торты</h3>
 </Carousel.Caption>
 </Carousel.Item>
 </Carousel>
 </div>
+  </div>
+
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
