@@ -60,8 +60,9 @@ return <div>
 </Carousel>
 </div>
   </div>
-
-<Image src={Profile} layout="intrinsic"/>
+ <main className={s.secon_items1}>
+<Image src={Profile} alt="Vercel Logo"  layout="fill" />
+</main>
 
 <div className ={s.text}>
 <div>
