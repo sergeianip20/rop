@@ -39,7 +39,7 @@ return <div>
 </div>
 
     <div className={s.secon_item}>
-<div className={s.secon_carosel}>
+<div className={s.secon_carosel1}>
 <Carousel>
 <Carousel.Item>
   <main className={s.secon_items1}>
