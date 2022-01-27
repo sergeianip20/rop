@@ -124,6 +124,14 @@ widht: 100%;
    box-shadow: 5px 5px 5px #555;
   
 }
+.secon_carosel1 {
+   widht: 500px;
+   height: 1000px;
+   background: #3bb4d9;
+   box-shadow: 5px 5px 5px #55
+   
+   }
+   
    .secon_grid {
       display:grid;
       widht:350px;
