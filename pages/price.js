@@ -118,6 +118,7 @@ return <div>
 </Container>
 </Navbar>
 </div>
+    <div className={s.secon_grid}>
    <div className={s.secon_item}>
 <div className={s.secon_carosel1}>
 <Carousel>
@@ -140,7 +141,7 @@ return <div>
 </Carousel>
 </div>
   </div>
-
+<div className={s.secon_item}>
 <div className = {s.users_grid}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
@@ -194,7 +195,7 @@ return <div>
 </div>
 </div>
 </div>
-     
+ </div>
 <div>
 
       <Modal show={show} onHide={handleClose}>
