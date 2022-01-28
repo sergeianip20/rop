@@ -31,7 +31,7 @@ return <div>
 <NavDropdown.Item > <Link href= '/anniversary'><a className = {s.sa}>Юбилейные</a></Link> </NavDropdown.Item>
 
 </NavDropdown>
-<Nav.Link href="#features">Прайс</Nav.Link>
+
 </Nav>
 </Navbar.Collapse>
 </Container>
