@@ -144,7 +144,7 @@ return<div>
 <div className = {s.users_grid2}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Svadiba} layout="intrinsic"/>
+  <Image src={Ubil3} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
@@ -155,7 +155,7 @@ return<div>
 </div>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={ValinTort} layout="intrinsic"/>
+  <Image src={Ubil3} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
@@ -166,7 +166,7 @@ return<div>
 </div>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={ValinTort} layout="intrinsic"/>
+  <Image src={Ubil3} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
@@ -177,7 +177,7 @@ return<div>
 </div>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={ValinTort} layout="intrinsic"/>
+  <Image src={Ubil3} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
