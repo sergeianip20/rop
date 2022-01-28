@@ -141,7 +141,7 @@ return <div>
 </Carousel>
 </div>
   </div>
-<div className={s.secon_item}>
+<div className={s.secon_item2}>
 <div className = {s.users_grid2}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
