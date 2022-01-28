@@ -46,6 +46,13 @@ grid-template-columns: 1fr 1fr 1fr;
 box-shadow:   5px 5px 5px black;
 margin: 125px 0px 0px 0px;
 }
+
+
+.users_grid2 { display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+box-shadow:   5px 5px 5px black;
+margin: 125px 0px 0px 0px; 
+}
 .users_item {
 padding: 0px 0px 5px 60px;
 
@@ -165,6 +172,13 @@ grid-template-columns: 1fr 1fr 1fr;
 box-shadow:   5px 5px 5px black;
 margin: 125px 0px 0px 0px;
 }
+   .users_grid2 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+box-shadow:   5px 5px 5px black;
+margin: 150px 0px 0px 0px;
+      
+   }
    .secon_items1 {
       widht:350px;
       height:900px;
