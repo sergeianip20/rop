@@ -142,7 +142,7 @@ return <div>
 </div>
   </div>
 <div className={s.secon_item}>
-<div className = {s.users_grid}>
+<div className = {s.users_grid2}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
   <Image src={Svadiba} layout="intrinsic"/>
