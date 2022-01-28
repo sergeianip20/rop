@@ -140,59 +140,61 @@ return<div>
 </Carousel>
 </div>
   </div>
-<div className = {s.users_grid}>
+<div className={s.secon_item2}>
+<div className = {s.users_grid2}>
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
-  <Image src={Ubil3} layout="intrinsic"/>
+  <Image src={Svadiba} layout="intrinsic"/>
   <Card.Body>
     <Card.Title>Торты от Вали </Card.Title>
     <Card.Text>
-      
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
     </Card.Text>
-  </Card.Body>
+     </Card.Body>
 </Card>
-</div  >
-</div>
-<div className = {s.users_grid}>
-  <div className = {s.users_item} >
-<Card style={{ width: '18rem' }}>
-  <Image src={Ubil3} layout="intrinsic"/>
-  <Card.Body>
-    <Card.Title>Торты от Вали </Card.Title>
-    <Card.Text>
-      
-    </Card.Text>
-  </Card.Body>
-</Card>
-</div  >
-</div>
-<div className = {s.users_grid}>
-  <div className = {s.users_item} >
-<Card style={{ width: '18rem' }}>
-  <Image src={Ubil3} layout="intrinsic"/>
-  <Card.Body>
-    <Card.Title>Торты от Вали </Card.Title>
-    <Card.Text>
-      
-    </Card.Text>
-  </Card.Body>
-</Card>
-</div  >
-</div>
-<div className = {s.users_grid}>
-  <div className = {s.users_item} >
-<Card style={{ width: '18rem' }}>
-  <Image src={Ubil3} layout="intrinsic"/>
-  <Card.Body>
-    <Card.Title>Торты от Вали </Card.Title>
-    <Card.Text>
-      
-    </Card.Text>
-  </Card.Body>
-</Card>
-</div  >
 </div>
 
+
+  <div className = {s.users_item} >
+<Card style={{ width: '18rem' }}>
+  <Image src={ValinTort} layout="intrinsic"/>
+  <Card.Body>
+    <Card.Title>Торты от Вали </Card.Title>
+    <Card.Text>
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
+    </Card.Text>
+  </Card.Body>
+</Card>
+
 </div>
+
+  <div className = {s.users_item} >
+<Card style={{ width: '18rem' }}>
+  <Image src={ValinTort} layout="intrinsic"/>
+  <Card.Body>
+    <Card.Title>Торты от Вали </Card.Title>
+    <Card.Text>
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
+    </Card.Text>
+  </Card.Body>
+</Card>
+
+</div>
+
+  <div className = {s.users_item} >
+<Card style={{ width: '18rem' }}>
+  <Image src={ValinTort} layout="intrinsic"/>
+  <Card.Body>
+    <Card.Title>Торты от Вали </Card.Title>
+    <Card.Text>
+      <button type ='button' onClick={handleShow} className={s.button_css}>Заказать</button>
+    </Card.Text>
+  </Card.Body>
+</Card>
+</div>
+</div>
+</div>
+ </div>
+<div>
 
 }
