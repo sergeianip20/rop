@@ -153,8 +153,6 @@ return<div>
      </Card.Body>
 </Card>
 </div>
-
-
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
   <Image src={ValinTort} layout="intrinsic"/>
@@ -165,9 +163,7 @@ return<div>
     </Card.Text>
   </Card.Body>
 </Card>
-
 </div>
-
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
   <Image src={ValinTort} layout="intrinsic"/>
@@ -178,9 +174,7 @@ return<div>
     </Card.Text>
   </Card.Body>
 </Card>
-
 </div>
-
   <div className = {s.users_item} >
 <Card style={{ width: '18rem' }}>
   <Image src={ValinTort} layout="intrinsic"/>
@@ -195,6 +189,8 @@ return<div>
 </div>
 </div>
  </div>
+</div>
+
 
 
 }
