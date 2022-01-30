@@ -96,7 +96,7 @@ background: #555;
    widht: 500px;
    height: 750px;
    background: #3bb4d9;
-   box-shadow: 5px 5px 5px #55
+ 
    
    }
 .secon_items1 {
@@ -168,13 +168,13 @@ widht: 100%;
    .users_grid {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-box-shadow:   5px 5px 5px black;
+
 margin: 125px 0px 0px 0px;
 }
    .users_grid2 {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-box-shadow:   5px 5px 5px black;
+
 margin: 200px 0px 0px 0px;
       
    }
